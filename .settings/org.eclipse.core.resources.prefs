@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/StockQuoteService/StockQuoteWS.java=UTF-8
+encoding//src/StockQuoteService/StockQuoteWSLocator.java=UTF-8
+encoding//src/StockQuoteService/StockQuoteWSPortType.java=UTF-8
+encoding//src/StockQuoteService/StockQuoteWSSOAP11BindingStub.java=UTF-8
+encoding//src/StockQuoteService/StockQuoteWSSOAP12BindingStub.java=UTF-8
