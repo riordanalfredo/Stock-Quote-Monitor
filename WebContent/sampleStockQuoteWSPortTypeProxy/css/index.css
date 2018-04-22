@@ -7,11 +7,12 @@ body{
 
 }
 h1{
+    
     margin: 0; padding: 0;
 }
 
 button{
-    background-color: #ffb200; /* Green */
+    background-color: #ffb200; /*yellow*/
     border: none;
     color: white;
     padding: 10px 10px;

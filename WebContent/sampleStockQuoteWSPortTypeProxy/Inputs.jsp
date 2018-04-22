@@ -28,6 +28,7 @@
 	<h3>Remove Stock</h3>
 	<FORM NAME="removeStock" METHOD="POST" >
 		<select id="dropdownDelete" name="stockDelete">
+			<option value="" disabled selected>Choose...</option>
 		    <c:forEach var="item" items="${myList}">
 		        <option value="<c:out value='${item}' />">
 		            <c:if test="${param.selectValue == item ? 'selected':''})"> Remove Stock </c:if>  

@@ -12,9 +12,15 @@
 
 <body>
 <div class="header">
-<h1 class="title">Stock Quote Monitor</h1>
-<hr>
+	<h1 class="title">Stock Quote Monitor</h1>
+	<hr>
+
+	<b> Refreshed in </b> <font id="countdownTimer"></font>
+
 </div>
+<br>
+
+<!-- Content -->
 <div class="content">
 <jsp:useBean id="sampleStockQuoteWSPortTypeProxyid" scope="session" class="StockQuoteService.StockQuoteWSPortTypeProxy" />
 <%
@@ -22,9 +28,6 @@
 * @author: rdalf2@student.monash.edu
 * Created 20 April 2018
 */
-%>
-
-<%
 try{
 	boolean gotMethod = true;
 		//Symbols, 
@@ -80,14 +83,7 @@ try{
 </div>
 <footer>By BobTheBuilder Team</footer>
 </body>
-<script type="text/javascript">
-$.ajax({
-	  url: "srvServlet", //or setJSP.jsp
-	  success: function(){
-	    alert ('ok');
-	  }
-	});
-
-</script>
+<script src="js/result.js" type="text/javascript"></script>
+	
 
 </html>

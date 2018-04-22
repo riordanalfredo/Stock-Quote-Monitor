@@ -1,15 +1,17 @@
 
 .header{
     position: fixed;
-    height:50px;
+    height:90px;
     width:90%;
+    font-weight: bold;
     top:0;
     background-color: white;
+    text-align: center;
 }
 
 .title{
     text-align: center;
-    color: #111d2d;
+    color: #111d2d; /* Blue */
 }
 .content{
 
