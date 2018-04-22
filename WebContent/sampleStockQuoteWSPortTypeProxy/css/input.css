@@ -1,0 +1,35 @@
+.title-accent{
+    font-family: 'Lato';
+    text-align: center;
+    color: #111d2d;
+}
+
+.button{
+    background-color: #ffb200; /* Green */
+    border: none;
+    color: white;
+    padding: 1px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+::placeholder { 
+    color: black;
+    opacity: 0.5; 
+    
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+    opacity: 0.5; 
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+    opacity: 0.5; 
+}
+
+#dropdownDelete{
+    width:120px
+}

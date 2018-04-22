@@ -1,0 +1,23 @@
+body{
+    font-family: 'Lato';
+    padding-left: 5%;
+    padding-right:5%;
+    padding-bottom:30px;
+    padding-top:0.5px;
+
+}
+h1{
+    margin: 0; padding: 0;
+}
+
+button{
+    background-color: #ffb200; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
