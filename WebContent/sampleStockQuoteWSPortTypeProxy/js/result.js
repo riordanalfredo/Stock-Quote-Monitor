@@ -1,7 +1,7 @@
 setInterval(function () {
     var d = new Date();
     var seconds = d.getMinutes() * 60 + d.getSeconds(); //convet 00:00 to seconds for easier caculation
-    var fiveMin = 60 * 20; //five minutes is 20 minutes!
+    var fiveMin = 60 * 5; //5 minutes
     var timeleft = fiveMin - seconds % fiveMin; // let's say 01:30, then current seconds is 90, 90%300 = 90, then 300-90 = 210. That's the time left!
     var minFomratted = parseInt(timeleft / 60);
     var result =  minFomratted + ' : ' + timeleft % 60 ; //formart seconds into 00:00 
