@@ -15,5 +15,5 @@ Please refer to [this link](https://www.draw.io/?state=%7B%22ids%22:%5B%221LLcKY
 
 
 # Some Useful Articles:
-    * [Learn how JSP-MVC architect works](https://www.guru99.com/jsp-mvc.html)
-    * [Stackoverflow implementing JSP as controller](https://stackoverflow.com/questions/14474707/controller-in-mvc-in-jsp)
+* [Learn how JSP-MVC architect works](https://www.guru99.com/jsp-mvc.html)*
+* [Stackoverflow implementing JSP as controller](https://stackoverflow.com/questions/14474707/controller-in-mvc-in-jsp)
