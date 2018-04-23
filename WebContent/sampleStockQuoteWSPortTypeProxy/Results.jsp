@@ -11,10 +11,10 @@
 </head>
 
 <body>
+
 <div class="header">
 	<h1 class="title">Stock Quote Monitor</h1>
 	<hr>
-
 	<b> Refreshed in </b> <font id="countdownTimer"></font>
 
 </div>
