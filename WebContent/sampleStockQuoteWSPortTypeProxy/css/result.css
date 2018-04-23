@@ -1,0 +1,51 @@
+
+.header{
+    position: fixed;
+    height:90px;
+    width:90%;
+    font-weight: bold;
+    top:0;
+    background-color: white;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    color: #111d2d; /* Blue */
+}
+.content{
+
+    margin-top:70px;
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    background-color: #111d2d;
+    color:#ffb200;
+    bottom:0;
+    width:90%;
+    height:30px;   /* Height of the footer */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td{
+    padding:10px;
+    border: 1px solid #111d2d;
+}
+
+th{
+     color:#ffb200;
+     background: #111d2d;
+     border: 1px solid white;
+}
+
+td{
+    height:40px;
+
+}
+
